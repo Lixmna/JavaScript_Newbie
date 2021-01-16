@@ -1,13 +1,11 @@
 import React from 'react';
-import './App.css'
+import Myname from './MyName';
 
 class App extends React.Component {
   render() {
 
     return (
-      <div className="App">
-        리액트
-      </div>
+      <Myname name="리액트" />
     );
   }
 }
