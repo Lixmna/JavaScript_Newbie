@@ -1,16 +1,12 @@
 import React from 'react';
+import './  App.css'
 
 class App extends React.Component {
   render() {
+
     return (
-      <div>
-        {
-          1 + 1 === 2
-          ? (<div>맞아요!</div>)
-          : (<div>틀려요!</div>)
-          hi
-          ll
-        }
+      <div className="App">
+        리액트
       </div>
     );
   }
