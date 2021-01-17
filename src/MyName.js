@@ -10,4 +10,4 @@ class Myname extends React.Component {
     }
 }
 
-export default Myname;
+export default Myname;-
