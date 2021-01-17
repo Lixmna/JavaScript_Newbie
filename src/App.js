@@ -1,11 +1,18 @@
 import React from 'react';
 import Counter from './Counter';
-// import Myname from './MyName';
+ import Myname from './MyName';
 
 class App extends React.Component {
   render() {
     return (
-      <Counter/>
+      <div>
+        <div>
+          <Counter/>
+        </div>
+        <div>
+          <Myname/>
+        </div>
+      </div>      
     );
   }
 }
