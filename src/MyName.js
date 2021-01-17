@@ -1,6 +1,9 @@
 import React from 'react'
 
 class Myname extends React.Component {
+    static defaultProps = {
+        name: '기본이름'
+    }
     render() {
         return (
             <div>
@@ -10,4 +13,4 @@ class Myname extends React.Component {
     }
 }
 
-export default Myname;-
+export default Myname;
